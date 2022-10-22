@@ -1,0 +1,22 @@
+.input{
+    padding: 10px;
+    margin-top: 20px;
+
+    width: 100%;
+
+    transition:  0.3s ease-in-out;
+
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 7px, transparent 7px) 0% 0%/12px 12px no-repeat,
+    radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 7px, transparent 7px) 100% 0%/12px 12px no-repeat,
+    radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 7px, transparent 7px) 0% 100%/12px 12px no-repeat,
+    radial-gradient(circle at 0 0, #ffffff 0, #ffffff 7px, transparent 7px) 100% 100%/12px 12px no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 10px) calc(100% - 24px) no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 24px) calc(100% - 10px) no-repeat,
+    linear-gradient(117deg, #0fe2d3 0%, #950bd9 100%, rgba(58, 157, 213, 1) 100%);
+    border-radius: 6px;
+}
+
+.input:focus {
+    border-radius: 12px;
+    padding: 15px;
+}
