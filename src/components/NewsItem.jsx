@@ -4,7 +4,7 @@ import MyButton from "./UI/button/MyButton";
 const NewsItem = (props) => {
 
     function removeTodo(e){
-        console.log(e.target.id)
+        alert(e.target.id)
     }
     return (
         <div className="post">
